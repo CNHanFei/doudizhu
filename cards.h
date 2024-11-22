@@ -17,6 +17,24 @@ public:
     void remove(Card& card);//出牌时
     void remove(Cards&cards);
 
+    //扑克牌数量
+    int cardCount();
+    //手里有没有牌
+    bool isEmpty();
+    //清空手牌
+    void clear();
+
+    //手牌最大最小点数
+    Card::CardPoint maxPoint();
+    Card::CardPoint minPoint();
+
+    //指定点数牌的数量
+    int pointCount(Card::CardPoint point);
+
+    //某张牌是否在集合中
+    bool contains(const Card&card);
+    bool contains(const Cards&cards);
+
 private:
     QSet<Card>m_cards;//qt的set没有自动排序，要手动排序
 signals:
