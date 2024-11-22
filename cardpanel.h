@@ -33,7 +33,7 @@ public:
 
 protected:
     void paintEvent(QPaintEvent *ev);
-    void mousePressEvent(QMouseEvent*ev);
+    void mousePressEvent(QMouseEvent *ev);
 private:
     QPixmap m_front;
     QPixmap m_back;

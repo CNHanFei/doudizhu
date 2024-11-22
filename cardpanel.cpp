@@ -75,3 +75,8 @@ void CardPanel::paintEvent(QPaintEvent *ev)
 
 
 }
+
+void CardPanel::mousePressEvent(QMouseEvent *ev)
+{
+
+}
