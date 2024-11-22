@@ -17,12 +17,12 @@ void Card::setSuit(CardSuit suit)
     this->m_suit = suit;
 }
 
-Card::CardPoint Card::Point()
+Card::CardPoint Card::point()const
 {
     return m_point;
 }
 
-Card::CardSuit Card::Suit()
+Card::CardSuit Card::suit()const
 {
     return m_suit;
 }

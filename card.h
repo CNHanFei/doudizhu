@@ -1,6 +1,6 @@
 #ifndef CARD_H
 #define CARD_H
-
+#include <QHash>
 class Card
 {
 public:
@@ -37,13 +37,20 @@ public:
         Card_End
     };
 
+    bool operator==(const Card&other)const{
+        return m_suit==other.m_suit&&m_point==other.m_point;
+    }
+
     void setPoint(CardPoint point);
     void setSuit(CardSuit suit);
-    CardPoint Point();
-    CardSuit Suit();
+    CardPoint point()const;
+    CardSuit suit()const;
 private:
     CardSuit m_suit;  //花色变量，枚举类型
     CardPoint m_point;    //点数变量，枚举类型
 };
+inline uint qHash(const Card &card, uint seed = 0) {
+    return qHash(card.suit(), seed) ^ qHash(card.point(), seed); // 使用现有的qHash来生成哈希值
+}
 
 #endif // CARD_H
