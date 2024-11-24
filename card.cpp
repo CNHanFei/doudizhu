@@ -29,3 +29,13 @@ Card::CardSuit Card::suit()const
 
 
 
+
+
+
+bool greaterSort(Card c1, Card c2){
+    if(c1.point()==c2.point()){
+        return c1.suit()>c2.suit();
+    }
+    return c1.point()>c2.point();
+
+}

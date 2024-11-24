@@ -53,4 +53,7 @@ inline uint qHash(const Card &card, uint seed = 0) {
     return qHash(card.suit(), seed) ^ qHash(card.point(), seed); // 使用现有的qHash来生成哈希值
 }
 
+//比较两个卡牌的大小
+bool greaterSort(Card c1, Card c2);
+
 #endif // CARD_H
