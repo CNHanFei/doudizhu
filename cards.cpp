@@ -1,7 +1,6 @@
 #include "cards.h"
-
-Cards::Cards(QWidget *parent)
-    : QWidget{parent}
+#include<QRandomGenerator>
+Cards::Cards()
 {}
 
 void Cards::add(Card &card)
@@ -103,6 +102,31 @@ bool Cards::contains(const Card &card)
 bool Cards::contains(const Cards &cards)
 {
     return m_cards.contains(cards.m_cards);
+}
+
+Card Cards::takeRandomCard()
+{
+    int num = QRandomGenerator::global()->bounded(m_cards.size());//随机生成一个数 范围在牌的总数之间
+    auto it = m_cards.constBegin();
+    while(num--){
+        it++;
+    }
+    Card ret = *it;
+    m_cards.erase(it);
+    return ret;
+}
+
+QVector<Card> Cards::toCardList()
+{
+    QVector<Card>list;
+    for(auto it=m_cards.begin();it!=m_cards.end();it++){
+        list.push_back(*it);
+    }
+
+    std::sort(list.begin(),list.end(),greaterSort);
+
+    return list;
+
 }
 
 
