@@ -7,6 +7,12 @@ Card::Card() {
 
 }
 
+Card::Card(CardPoint point, CardSuit suit)
+{
+    setPoint(point);
+    setSuit(suit);
+}
+
 void Card::setPoint(CardPoint point)
 {
     this->m_point =point;

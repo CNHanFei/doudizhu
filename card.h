@@ -4,7 +4,6 @@
 class Card
 {
 public:
-    Card();
 
     //花色
     enum CardSuit{
@@ -18,7 +17,7 @@ public:
 
     //点数
     enum CardPoint{
-        Card_Begin,
+        Card_Begin=0,
         card_3,
         card_4,
         card_5,
@@ -36,6 +35,8 @@ public:
         card_bigJoker,
         Card_End
     };
+    Card();
+    Card(CardPoint point,CardSuit suit);
 
     bool operator==(const Card&other)const{
         return m_suit==other.m_suit&&m_point==other.m_point;
