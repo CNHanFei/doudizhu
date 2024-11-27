@@ -41,6 +41,9 @@ public:
     bool operator==(const Card&other)const{
         return m_suit==other.m_suit&&m_point==other.m_point;
     }
+    bool operator<(const Card&other)const{
+        return m_point<other.m_point;
+    }
 
     void setPoint(CardPoint point);
     void setSuit(CardSuit suit);
