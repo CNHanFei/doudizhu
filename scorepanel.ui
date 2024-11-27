@@ -19,11 +19,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>我：</string>
@@ -38,11 +38,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string/>
@@ -54,11 +54,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>分</string>
@@ -70,11 +70,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>左侧机器人</string>
@@ -89,11 +89,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string/>
@@ -105,11 +105,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>分</string>
@@ -121,11 +121,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>右侧机器人</string>
@@ -140,11 +140,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string/>
@@ -156,11 +156,11 @@
      <property name="font">
       <font>
        <family>微软雅黑</family>
-       <pointsize>12</pointsize>
+       <pointsize>22</pointsize>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
       <string>分</string>

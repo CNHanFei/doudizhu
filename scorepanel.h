@@ -15,6 +15,9 @@ public:
     explicit ScorePanel(QWidget *parent = nullptr);
     ~ScorePanel();
 
+    //设置得分
+    void setScore(int left,int right, int user);
+
 private:
     Ui::ScorePanel *ui;
 };
